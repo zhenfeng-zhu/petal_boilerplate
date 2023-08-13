@@ -1,15 +1,5 @@
 import Config
 
-# Configure your database
-config :petal_boilerplate, PetalBoilerplate.Repo,
-  username: "postgres",
-  password: "postgres",
-  hostname: "localhost",
-  database: "petal_boilerplate_dev",
-  stacktrace: true,
-  show_sensitive_data_on_connection_error: true,
-  pool_size: 10
-
 # For development, we disable any cache and enable
 # debugging and code reloading.
 #

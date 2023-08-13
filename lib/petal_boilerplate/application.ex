@@ -10,8 +10,7 @@ defmodule PetalBoilerplate.Application do
     children = [
       # Start the Telemetry supervisor
       PetalBoilerplateWeb.Telemetry,
-      # Start the Ecto repository
-      PetalBoilerplate.Repo,
+
       # Start the PubSub system
       {Phoenix.PubSub, name: PetalBoilerplate.PubSub},
       # Start Finch

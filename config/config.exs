@@ -7,9 +7,6 @@
 # General application configuration
 import Config
 
-config :petal_boilerplate,
-  ecto_repos: [PetalBoilerplate.Repo]
-
 # Configures the endpoint
 config :petal_boilerplate, PetalBoilerplateWeb.Endpoint,
   url: [host: "localhost"],
